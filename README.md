@@ -1,5 +1,5 @@
 # Secure Password Generator
-A Python desktop GUI tool for generating secure passwords and readable passphrases using cryptographically secure randomness.
+The Secure Password Generator is a Python desktop GUI tool built with Tkinter. It generates secure passwords and memorable passphrases using Python’s secrets module, which provides cryptographically secure randomness. It focuses on usability and security awareness by combining generation, validation, and safe handling of sensitive data. 
 
 <img width="521" height="753" alt="Screenshot 2026-05-13 at 13 08 15" src="https://github.com/user-attachments/assets/abeb6182-4df5-44fe-9bd7-a870e34069f2" />
 
@@ -23,42 +23,19 @@ A Python desktop GUI tool for generating secure passwords and readable passphras
 * Responsive Tkinter UI
 * Button hover and press feedback
 
-## Installation
-1. Download the script: https://github.com/khucker3d/cyber-secure-password-generator/blob/main/secure_password_generator.py
-2. Run the script
-   * Mac Terminal: python3 secure_password_generator.py
-   * Windows PowerShell: python secure_password_generator.py
-   *Note: I used IDLE to create and run the script*
-3. Set password length
-4. Set number to generate
-5. Enable character options
-6. Enable passphrase mode if desired
-7. Click Generate
-Results: Generated results appear with strength labels.
-
-### You can:
-* Click one result to copy it
-* Select multiple results and click Copy Selected
-* Click Copy All
-* Clear results
-* Clear clipboard manually
-* Export generated results to CSV
-
-### Passphrase Mode:
-Passphrase mode generates readable passwords such as:
-* forest-rocket-cloud-signal-A7!
-* Enabled character options are appended to the passphrase to support websites that require uppercase letters, lowercase letters, numbers, or symbols.
-* Clipboard Safety
-* Copied passwords start a countdown timer.
-  * After 30 seconds:
-    * The clipboard is overwritten
-    * The clipboard is cleared
+How To
 
 ## Important:
-* The app cannot remove content that has already been pasted into another app. Clipboard managers may also retain copied content.
+* The app cannot remove content that has already been pasted into another app.
+* Clipboard managers may also retain copied content.
 * CSV Export Warning
   * CSV exports are plain text.
   * After importing the CSV into a password manager, delete the CSV file.
+* Generated passwords are not stored automatically. They exist only in:
+  * The application UI
+  * Temporary memory
+  * The system clipboard (temporarily)
+  * CSV export if explicitly chosen by the user
 
 ### Limitations
 * Strength estimation is entropy-based
@@ -80,7 +57,12 @@ Passphrase mode generates readable passwords such as:
 * Encrypted export option
 * Packaged Mac and Windows app builds
 
+
 ## License
 MIT License
+
+### Security Notes
+* This project is intended for learning, personal security practice, and portfolio demonstration.
+* For real credential storage, use a trusted password manager.
 
 
