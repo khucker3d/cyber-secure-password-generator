@@ -1,41 +1,30 @@
 # Secure Password Generator
-
 A Python desktop GUI tool for generating secure passwords and readable passphrases using cryptographically secure randomness.
 
-## Features
-- Secure password generation using Python’s `secrets` module
-- Password length control
-- Number of passwords to generate
-- Uppercase, lowercase, number, and symbol options
-- Ambiguous character removal
-- Passphrase mode
-- Password strength estimation
-- Color-coded strength labels
-- Check your own password strength
-- Click-to-copy single password
-- Copy selected passwords
-- Copy all passwords
-- Select all and uncheck all controls
-- Clear results and clipboard
-- Clipboard auto-clear with countdown
-- CSV export for password manager import
-- Responsive Tkinter UI
-- Button hover and press feedback
-
-## Screenshot
 <img width="521" height="753" alt="Screenshot 2026-05-13 at 13 08 15" src="https://github.com/user-attachments/assets/abeb6182-4df5-44fe-9bd7-a870e34069f2" />
 
-## Tech Stack
-* Python
-* Tkinter
-* secrets
-* csv
-* math
-* string
-* time
+## Features
+* Secure password generation using Python’s `secrets` module
+* Password length control
+* Number of passwords to generate
+* Uppercase, lowercase, number, and symbol options
+* Ambiguous character removal
+* Passphrase mode
+* Password strength estimation
+* Color-coded strength labels
+* Check your own password strength
+* Click-to-copy single password
+* Copy selected passwords
+* Copy all passwords
+* Select all and uncheck all controls
+* Clear results and clipboard
+* Clipboard auto-clear with countdown
+* CSV export for password manager import
+* Responsive Tkinter UI
+* Button hover and press feedback
 
 ## Installation
-1. Download the secure_password_generator.py script
+1. Download the script: https://github.com/khucker3d/cyber-secure-password-generator/blob/main/secure_password_generator.py
 2. Run the script
    * Mac Terminal: python3 secure_password_generator.py
    * Windows PowerShell: python secure_password_generator.py
