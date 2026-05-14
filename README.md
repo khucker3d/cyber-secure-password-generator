@@ -39,6 +39,7 @@ A Python desktop GUI tool for generating secure passwords and readable passphras
 2. Run the script
    * Mac Terminal: python3 secure_password_generator.py
    * Windows PowerShell: python secure_password_generator.py
+   *Note: I used IDLE to create and run the script*
 3. Set password length
 4. Set number to generate
 5. Enable character options
