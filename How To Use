@@ -1,0 +1,27 @@
+## How To:
+
+
+## Installation:
+1. Download the [script:](https://github.com/khucker3d/cyber-secure-password-generator/blob/main/secure_password_generator.py)
+2. Run the script
+   * Mac Terminal: `python3 secure_password_generator.py`
+   * Windows PowerShell: `python secure_password_generator.py`
+   *Note: I used IDLE to create and run the script*
+
+## Use Tool:
+3. Set the password length
+4. Set the number to generate
+5. Enable character options
+6. Enable passphrase mode if desired
+7. Click Generate
+Results: Generated results appear with strength labels.
+
+### Passphrase Mode:
+Passphrase mode generates readable passwords such as:
+* forest-rocket-cloud-signal-A7!
+* Enabled character options are appended to the passphrase to support websites that require uppercase letters, lowercase letters, numbers, or symbols.
+* Clipboard Safety
+* Copied passwords start a countdown timer.
+  * After 30 seconds:
+    * The clipboard is overwritten
+    * The clipboard is cleared
