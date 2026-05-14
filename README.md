@@ -23,7 +23,7 @@ The Secure Password Generator is a Python desktop GUI tool built with Tkinter. I
 * Responsive Tkinter UI
 * Button hover and press feedback
 
-## [How To](https://github.com/khucker3d/cyber-secure-password-generator/blob/main/How%20To%20Use.md)
+## [How To](https://github.com/khucker3d/cyber-secure-password-generator/blob/main/How%20To%20Use.md):
 
 ## Important:
 * The app cannot remove content that has already been pasted into another app.
