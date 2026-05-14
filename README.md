@@ -1,4 +1,4 @@
-# Secure Password Generator
+# My Secure Password Generator
 The Secure Password Generator is a Python desktop GUI tool built with Tkinter. It generates secure passwords and memorable passphrases using Python’s secrets module, which provides cryptographically secure randomness. It focuses on usability and security awareness by combining generation, validation, and safe handling of sensitive data. 
 
 <img width="721" height="953" alt="Screenshot 2026-05-13 at 13 08 15" src="https://github.com/user-attachments/assets/76c66486-df7d-4532-8ed5-655f33ec1c0e" />
